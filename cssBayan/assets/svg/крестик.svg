@@ -9,8 +9,8 @@
             <g id="cell" transform="translate(85.000000, 35.000000)">
                 <path d="M8.992,14 L5.012,14 L5.012,0 L8.992,0 L8.992,14 Z" id="cursor" fill="#000000"></path>
                 <path d="M0,5.005 L13.985,5.005 L13.985,8.985 L0,8.985 L0,5.005 Z" id="cursor" fill="#000000"></path>
-                <path d="M7.969,13 L6,13 L6,1.014 L7.969,1.014 L7.969,13 Z" id="cursor" fill="#FFFFFF"></path>
-                <path d="M1.016,6.031 L12.983,6.031 L12.983,8 L1.016,8 L1.016,6.031 Z" id="cursor" fill="#FFFFFF"></path>
+                <path d="M7.969,13 L6,13 L6,1.014 L7.969,1.014 L7.969,13 Z" id="cursor" fill="#000000"></path>
+                <path d="M1.016,6.031 L12.983,6.031 L12.983,8 L1.016,8 L1.016,6.031 Z" id="cursor" fill="#000000"></path>
             </g>
         </g>
     </g>
