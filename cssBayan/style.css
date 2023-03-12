@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    width: 50vw;
+    margin-left: 25%;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-items {
+    list-style: none;
+}
+
+.accordion-items :hover {
+    color: blueviolet;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.accordion-items :hover .icon {
+    display: block;
+    transition: 0.5s;
+}
+
+.accordion-items :hover .mem {
+    display: block;
+}
+
+/* .item :active .mem {
+    display: block;
+} */
+
+.item {
+
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mem-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+}
+
+.icon {
+    display: none;
+}
+
+.mem {
+    width: 75%;
+    display: none;
+}
